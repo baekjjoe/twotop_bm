@@ -1,0 +1,72 @@
+
+
+body{
+  /* background-color: #ebeded !important; */
+  background: linear-gradient(45deg, blue, red);
+  back
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.teachers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  width: 250px;
+  height: 400px;
+  margin: 13px;
+  margin-bottom: 50px;
+  font-size: 13px;
+}
+
+
+.teacher_name{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2;
+}
+
+
+
+.card img{
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 3%;
+  }
+
+.introduce{
+  line-height: 1.5;
+}
+
+.dropdown{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#abc {
+  width:100px;
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+
+.explanation{
+  border-top: #F6F7F7;
+  background-color: white;
+  padding: 80px 270px;
+}

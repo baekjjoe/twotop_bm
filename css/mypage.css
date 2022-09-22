@@ -1,0 +1,44 @@
+
+
+.container{
+  padding: 50px 200px;
+  /* margin: auto; */
+  width: auto;
+  height: auto;
+
+  color: rgb(228, 228, 228);
+  background: linear-gradient(45deg, blue, red);
+  
+  font-weight: bold;
+  line-height: 2;
+}
+
+
+/* .container p{
+  font-size: 16px;
+} */
+
+.container .chart{
+  color: black;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  opacity: 0.5;
+  line-height: 1.5;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* .container .chart ul{
+  line-height: 1.5;
+  font-size: 12px;
+  font-weight: normal;
+} */
+
+  .explanation{
+    border-top: #F6F7F7;
+    background-color: white;
+    padding: 30px 200px;
+  }

@@ -1,0 +1,27 @@
+.container .first{
+  padding: 200px 200px;
+  margin: auto;
+  color: rgb(228, 228, 228);
+  line-height: 2;
+  background: linear-gradient(45deg, blue, red);
+
+}
+
+.container .first .introduction{
+  padding: 3opx 300px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container .first .about_introduction{
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+/* .container .second{
+  padding: 200px 200px;
+  margin: auto;
+  color:rgb(228, 228, 228);
+  background: white;
+} */

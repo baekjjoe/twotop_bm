@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>투톱 STUDY</title>
+
+  <link rel="icon" href="./favicon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/videos.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+
+      <!-- logo -->
+      <a href="/" class="logo">
+        <img src="./images/twotop_logo.png" alt="logo" />
+      </a>
+
+      <!-- sub-menu -->
+      <div class="sub-menu">
+        <a href="javascript:void(0)">로그인</a>
+        <a href="javascript:void(0)">회원가입</a>
+        <a href="./mypage.html">마이페이지</a>
+      </div>
+
+      <!-- main-menu -->
+      <ul class="main-menu">
+        <li><a href="/">투톱소개</a></li>
+        <li><a href="./teacher.html">투톱선생님</a></li>
+        <li><a href="./live.html">라이브수업</a></li>
+        <li class="active"><a href="./videos.html">강의영상자료</a></li>
+        <li><a href="./board.html">게시판</a></li>
+      </ul>
+    </div>
+
+  </header>
+  <!-- container -->
+  <div class="container">
+    <div class="dropdown">
+      <select class="form-select" id="abc" aria-label="Default select example">
+        <option selected>학교</option>
+        <option value="1">고려대학교</option>
+        <option value="2">연세대학교</option>
+      </select>
+      <select class="form-select" id="abc" aria-label="Default select example">
+        <option selected>학과</option>
+        <option value="1">학과선택</option>
+      </select>
+      <select class="form-select" id="abc" aria-label="Default select example">
+        <option selected>학번</option>
+        <option value="1">16</option>
+        <option value="2">17</option>
+        <option value="3">18</option>
+        <option value="4">19</option>
+        <option value="5">20</option>
+        <option value="6">21</option>
+        <option value="2">22</option>
+      </select>
+      <select class="form-select" id="abc" aria-label="Default select example">
+        <option selected>학년</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <select class="form-select" id="abc" aria-label="Default select example">
+        <option selected>성별</option>
+        <option value="1">남자</option>
+        <option value="2">여자</option>
+      </select>
+      <select class="form-select" id="abc" aria-label="Default select example">
+        <option selected>과목</option>
+        <option value="1">국어</option>
+        <option value="2">영어</option>
+        <option value="3">수학</option>
+        <option value="4">과학</option>
+        <option value="5">사회</option>
+      </select>
+      <select class="form-select" id="abc" aria-label="Default select example">
+        <option selected>경력</option>
+        <option value="1">1년이하</option>
+        <option value="2">2년이하</option>
+        <option value="3">3년이하</option>
+      </select>
+    </div>
+
+    <div class="teachers">
+      <div class="card">
+        <img src="./images/video.png" alt="teacher">
+        <div class="teacher_name"> (미래엔) 고전시가 총정리 </div>
+        <div class="introduce">
+          <div class="introduceString">
+            <span style="color: gray;">박혜수 선생님 <br> </span>
+            <span style="color: rgb(220, 20, 60);"> (고려대학교 국어국문학과 20) </span>
+          </div>
+          <div class="introduceString">
+            <span> 강의수: 20개 </span>
+          </div>
+          <div class="introduceString">
+            <span>분야: 고등국어>고전시가 </span>
+          </div>
+          <div class="introduceString">
+            <span> 총 영상시간: 10시간 28분</span>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/video.png" alt="teacher">
+        <div class="teacher_name"> 수능에 자주 나오는 문법 총정리 </div>
+        <div class="introduce">
+          <div class="introduceString">
+            <span style="color: gray;">권정열 선생님 <br> </span>
+            <span style="color: royalblue;"> (연세대학교 국어국문학과 20) </span>
+          </div>
+          <div class="introduceString">
+            <span> 강의수: 8개 </span>
+          </div>
+          <div class="introduceString">
+            <span>분야: 고등영어>문법 </span>
+          </div>
+          <div class="introduceString">
+            <span> 총 영상시간: 5시간 28분</span>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/video.png" alt="teacher">
+        <div class="teacher_name"> 초5 수학익힘책 풀이 (비상에듀)</div>
+        <div class="introduce">
+          <div class="introduceString">
+            <span style="color: gray;">박진영 선생님 <br> </span>
+            <span style="color: royalblue;"> (연세대학교 지질학과 16) </span>
+          </div>
+          <div class="introduceString">
+            <span> 강의수: 52개 </span>
+          </div>
+          <div class="introduceString">
+            <span>분야: 초등수학>문제풀이 </span>
+          </div>
+          <div class="introduceString">
+            <span> 총 영상시간: 9시간 18분</span>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<div class="explanation">
+  1. dropdown : 
+  <br> [학력관련] 학교(고려대/연세대), 학과(학과 전체 나열), 학년, 나이, 성별, 
+  <br> [수업관련] 가르치는과목, 경력, 수업료 등
+  <br> **중요한 검색값: 분야**
+  <br><br>
+  2. 카드 : 
+  <br> - 1줄에 3 or 4개 카드 정렬
+  <br> - 카드에 포함되는 값: 영상 썸네일 / 이름(닉네임) / 학교 / 학과 / 학번 /
+  <br>  / 영상 과목 / 총 영상시간
+  <br><br>
+  3. 기타 :
+  <br> - 찜 기능 추가
+</div>
+
+</body>
+
+</html>
